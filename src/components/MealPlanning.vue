@@ -87,9 +87,5 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+
 </style>
