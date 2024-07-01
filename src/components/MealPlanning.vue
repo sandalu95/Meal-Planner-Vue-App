@@ -1,6 +1,6 @@
 <template>
-  <div class="container">
-    <div>
+  <div class="container mx-auto space-y-4">
+    <div class="block bg-white p-4 flex flex-col justify-center min-h-[80vh]">
       <div v-if="activeStep === 0">
         <p>Welcome to personalized meal planning!</p>
         <button @click="handleNext">Get Started!</button>
@@ -24,7 +24,7 @@
         </div>
       </div>
     </div>
-    <div>
+    <div class="block">
       <button @click="handleBack" :disabled="activeStep === 0">Back</button>
       <button @click="handleNext" :disabled="activeStep === 7">Next</button>
     </div>
@@ -86,6 +86,4 @@ export default {
 };
 </script>
 
-<style scoped>
-
-</style>
+<style scoped></style>
